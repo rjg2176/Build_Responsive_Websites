@@ -1,0 +1,92 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+
+article{
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 825px;
+}
+
+
+
+.product {
+  border: 4px solid black;
+  width: 825px;
+}
+
+.product-name {
+  text-transform: uppercase;
+  background-color: rgba(211, 211, 211, 0.307);
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.product-details{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.free-shipping {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: grey;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.details-list {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.details-list li{
+    margin-bottom: 10px;
+}
+
+
+
+.more-information:link,
+.more-information:visited {
+  color: black;
+}
+.more-information:hover,
+.more-information:active {
+  text-decoration: none;
+}
+
+
+
+button {
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  width:100%;
+  padding: 15px;
+  border-top: 4px solid black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+  border-top: 4px solid black;
+}
